@@ -1,0 +1,37 @@
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    font-size: 30px;
+}
+.parent input{
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 10px 20px;
+    background-color: red;
+    color: white;
+}
+input::placeholder{
+    color: white;
+    text-align: center;
+}
+#unit{
+    width: 20%;
+    padding: 10px 20px;
+    stroke: none;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+#result{
+    color: white;
+    font-style: italic;
+}
